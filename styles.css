@@ -6,12 +6,12 @@
 
 /* Variables de diseño */
 :root {
-    --bg: #f6f8fb;
-    --text: #101828;
-    --muted: #667085;
+    --bg: #f6f7fb; 
+    --text: #0f172a;
+    --muted: #64748b; 
     --white: #ffffff;
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
+    --primary:#4f46e5; 
+    --primary-dark: #4338ca;
     --border: #e5e7eb;
     --dark: #0f172a;
     --radius: 18px;
@@ -65,9 +65,15 @@ button {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 800;
+    letter-spacing: -0.5px;
     color: var(--primary);
+}
+
+.logo span {
+    color: var(--text);
+    font-weight: 600;
 }
 
 .menu {
