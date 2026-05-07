@@ -163,6 +163,7 @@ button {
 .btn-primary {
     background: var(--primary);
     color: white;
+    box-shadow: 0 10px 25px rgba(67, 56, 202, 0.55);
 }
 
 .btn-primary:hover {
@@ -216,7 +217,7 @@ button {
 /* SECCIONES */
 
 .section {
-    padding: 90px 0;
+    padding: 100px 0;
 }
 
 .dark-section {
@@ -264,7 +265,7 @@ button {
     border-radius: var(--radius);
     border: 1px solid var(--border);
     box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-    transition: 0.25s;
+    transition: 0.25s ease;
 }
 
 .card:hover {
