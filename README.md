@@ -1,4 +1,4 @@
-# Landing - NovaWeb
+# Landing - Borkin
 
 Landing page diseñada para presentar servicios digitales y generar consultas.
 
